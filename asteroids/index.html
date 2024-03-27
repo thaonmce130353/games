@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-    <div id="game-container">
+    <div id="game-container" style="display: flex;justify-content: center;">
       <canvas id="canvas" width="780" height="540"></canvas>
       <div id="left-controls">
         <div id="up" class='button'>THRUST</div>
@@ -27,5 +27,10 @@
         <div id="space" class='button'>FIRE</div>
       </div>
     </div>
+  <script>
+    canvas = document.getElementById("canvas");
+    canvas.width = document.body.clientWidth - 16;
+    canvas.height = document.body.clientHeight - 20;
+  </script>
   </body>
 </html>
