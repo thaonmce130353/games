@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <style>
+        html {
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            touch-action: none;
+            background-color: transparent;
+        }
+
+        body {
+            overflow: hidden;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            touch-action: none;
+            background-color: transparent;
+        }
+
+        #content {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-shadow: none;
+            border: 0 !important;
+            touch-action: none;
+        }
+
+        object,
+        #content canvas {
+            box-shadow: none;
+            border: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var LANGUAGE = "en";
+    </script>
+    <div id="content" style="height: 100vh;display: flex; justify-content: center;"></div>
+    <div id="preroll"></div>
+    <script src="phaser.min.js"></script>
+    <script src="game.min.js?version=1.002"></script>
+    <script src="jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+__dflags = {
+    "RefererProxy": "control",
+    "DynamicHeightGadgetRewriter": "true",
+    "CacheErrorThrottleCountLimit": "control",
+    "AnalyticsGadgetRewriter": "true",
+    "StyleAdjacencyGadgetRewriter": "true",
+    "CsiSample": "true",
+    "UseETags": "false",
+    "StyleTagExtractorGadgetRewriter": "true",
+    "LogResources": "false",
+    "ContentDivGadgetRewriter": "false",
+    "TimeSecsSinceEpochEnvGadgetRewriter": "true",
+    "AdsUrlGadgetRewriter": "true",
+    "ErrorCodesToLog": "control",
+    "YtVideoUrlGadgetRewriter": "true",
+    "ProxyingGadgetRewriter": "true",
+    "UseCajaSerializer": "false",
+    "CorpDomainSuffixes": "control",
+    "DflagsJsDebugGadgetRewriter": "true",
+    "GadgetBlacklist": "control",
+    "MiniMessageGadgetRewriter": "true",
+    "EnableJsErrorTracking": "true",
+    "TrackResources": "false",
+    "ClickTrackGadgetRewriter": "false",
+    "InjectClientId": "false",
+    "DisableLoggingJs": "false",
+    "UseBrowserSpecificJson": "false",
+    "HtmlParser": "control",
+    "UseUrlGadgetWhitelist": "false",
+    "ResourceUsageJsDebugGadgetRewriter": "true",
+    "UrlTranslations": "control",
+    "EnableContextCache": "false",
+    "UseNoVarGlobals": "false",
+    "Monkeypatch": "control",
+    "ValidateTypeUrl": "true",
+    "UseJsPipelineForRendering": "false"
+};
+
+/* mp-start */
+window['___jsl'] = window['___jsl'] || {};
+window['__isgadget'] = true;
