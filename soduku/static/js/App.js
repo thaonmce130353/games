@@ -5,8 +5,7 @@ import moment from 'moment';
 import {
     Header,
     Game,
-    Sidebar,
-    Footer
+    Sidebar
 } from './components/gameLayout';
 import {
     getSudoku
@@ -427,8 +426,7 @@ function App() {
             handleOnClickFastMode
         }
         /> <
-        /div> <
-        Footer / >
+        /div>
         <
         /div> <
         div className = {

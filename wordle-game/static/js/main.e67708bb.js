@@ -33282,7 +33282,7 @@
               [h, B, r]
             ),
             (0, F.jsxs)("div", {
-              className: "h-screen flex flex-col container",
+              className: "flex flex-col container",
               children: [
                 (0, F.jsx)(ct, {
                   setIsInfoModalOpen: z,

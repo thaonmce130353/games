@@ -1371,6 +1371,11 @@ html.dark {
 }
 
 .container {
-    width: 100vw;
     background-color: burlywood;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    height: 100vh;
+  }
 }

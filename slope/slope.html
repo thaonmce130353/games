@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>Slope Original</title>
-    <link rel="stylesheet" href="css/game.css" type="text/css" />
-    <meta name="referrer" content="no-referrer" />
+    <title>Slope</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width="960" height="600"></canvas>
@@ -16,16 +15,14 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-mobile-warning">
-        WebGL builds are not supported on mobile devices!
-      </div>
+      <div id="unity-mobile-warning"></div>
       <div id="unity-footer">
         <div id="unity-webgl-logo-1"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Slope</div>
+        <div id="unity-build-title"></div>
       </div>
     </div>
-
-    <script src="slope.js"></script>
+    <div class="cookie-overlay p-4 d-none" id="popupPlay"></div>
+    <script type="text/javascript" src="slope.js"></script>
   </body>
 </html>
